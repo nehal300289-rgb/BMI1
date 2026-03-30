@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BMI Result</title>
+  <style>
+    body { font-family: Arial; max-width: 500px; margin: 50px auto; }
+    .result { padding: 20px; background: #E8F4E8; border-radius: 8px;
+              margin: 20px 0; }
+  </style>
+</head>
+<body>
+  <h1>Your BMI Result</h1>
+  <div class="result">
+    <p><strong>Weight:</strong> {{ weight }} kg</p>
+    <p><strong>Height:</strong> {{ height }} cm</p>
+    <p><strong>BMI:</strong> {{ bmi }}</p>
+    <p><strong>Category:</strong> {{ category }}</p>
+  </div>
+  <a href="/bmi">Calculate again</a>
+</body>
+</html>
